@@ -18,10 +18,10 @@ function App() {
     prism.highlightAll();
   });
 
-  async function reviewCode() {
+ async function reviewCode() {
   const API_BASE = import.meta.env.PROD
     ? `${import.meta.env.VITE_API_URL}/ai/get-review`
-    : "/ai/get-review";
+    : "http://localhost:3000/ai/get-review"; // Local backend
 
   console.log("API_BASE value:", API_BASE);
 
@@ -33,6 +33,7 @@ function App() {
     setReview("❌ Failed to fetch review. Check console.");
   }
 }
+
 
 
 
