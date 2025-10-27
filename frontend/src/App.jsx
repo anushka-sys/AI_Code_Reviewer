@@ -20,7 +20,7 @@ function App() {
 
   async function reviewCode() {
   const API_BASE = import.meta.env.PROD
-    ? `${import.meta.env.VITE_API_BASE}/ai/get-review`
+    ? `${import.meta.env.VITE_API_URL}/ai/get-review`
     : "/ai/get-review";
 
   console.log("API_BASE value:", API_BASE);
