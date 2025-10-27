@@ -71,7 +71,7 @@ AI_Code_Reviewer/
 
 ### 🔹 Backend (`backend/.env`)
 PORT=10000
-OPENAI_API_KEY=your_openai_api_key_here
+GEMINI_API_KEY=your_gemini_api_key_here
 
 
 ### 🔹 Frontend (`frontend/.env`)
