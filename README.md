@@ -10,6 +10,7 @@ It analyzes your code using AI and provides instant, meaningful reviews and impr
 
 
 
+
 ## 🚀 Features
 
 - 🧩 **Paste & Review Code** — instantly get AI feedback and suggestions.  
